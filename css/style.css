@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+
+.cabecalho{
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.95);
+    position: fixed;
+    top: 0;
+}
+
+.menu_nav{
+    padding: 10px 25px;
+    background-color: black;
+    width: 100%;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-around 10px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;  
+}
+
+.simbol{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+.menu_list{
+    display: flex;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+.menu_list li a{
+    
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;   
+}
+
+.menu_list li a:hover{
+    color: red;
+}
+
+.menuLi:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.container{
+    max-width:1200px;
+    margin: 0 auto;  
+}
+
+.vitrine{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    width: 900px;
+    text-align: center;
+}
+
+.list_cards{
+    margin-top:80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.cards{
+    width: 240px;
+	margin-bottom:30px;  
+	overflow:hidden; 
+	border-radius:6px; 
+	box-shadow: 0 2px 4px rgba(0,0,0,0.5); 
+	transition:.5s;  
+}
+
+.cards:hover{
+	box-shadow: 0 6px 8px rgb(255, 0, 0); 
+    transition: all 0.3s
+}
+
+
+
+.image_cards{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: #ffffff;; 
+    width: 140px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 24px;
+    background-color: rgb(0, 0, 0); 
+    color: white;
+    font-size: 12px;
+    padding: 12px, 5px, 12px, 5px;
+    gap: 10px;
+    margin-top: 20px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.name_item{
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #242424;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #242424;
+    padding-right: 12px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.value{
+    margin-top: 17px;
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: red;
+    font-style: italic;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.but{
+    margin-bottom: 20px;
+    background-color: rgb(145, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 20px;
+    margin-right: 25px;
+}
+
+.but:hover{
+    transform: scale(1.1);
+      transition: all 0.5s
+  }
+
+
+  aside{
+    position: fixed;
+    right: 0;
+    top: 20%;
+    width: 30em;
+    margin-top: -2.5em;
+    text-align: center;   
+}
+.pesquisa{
+    padding: 6px 25px;
+}
+
+.email{
+    padding: 6px 25px;
+}
+
+.senha{
+    padding: 6px 25px;
+}
+
+.butAddpesquisa{
+    margin-bottom: 20px;
+    background-color: rgb(145, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 10px;
+}
+
+.butAddpesquisa:hover{
+    transform: scale(1.1);
+    transition: all 0.5s
+}
+
+  aside .carrinhoCompras{
+    padding: 6px 20px;
+    background: rgb(145, 0, 0);
+    color: white;
+    margin-left: 82px;
+    margin-right:82px;
+}
+
+aside ul{
+    overflow-y: scroll;
+    background-color: #F5F5F5;; ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    gap: 10px;
+    margin-left: 82px;
+    margin-right:82px ;
+    width: 318px;
+}
+
+aside ul h2{
+    font-weight: 700;
+    color: #292929;
+    font-weight: 700;
+    font-size: 15px;   
+}
+
+.quantidadeTotal{
+    
+    height: 126px;
+    background: #292929;
+    margin-left: 17%;
+    margin-right:82px;
+}
+
+.quantidade{
+    gap: 3px;
+    display: flex;
+   padding-top: 28px;
+   padding-left: 14px;
+   color: white;
+}
+
+.total{
+   padding-top: 28px;
+   padding-left: 14px;
+   color: white;
+   padding-right: 97%;
+}
+
+
+.final{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+.Addimage_cards{
+    width: 80px;
+}
+
+.butAddItem{
+    padding-top: 50px;
+    background-color: #F5F5F5;; ;
+    margin-left:  82px;
+    margin-right: 82px;
+}
+
+.butAddItem2{
+    background-color: #F5F5F5;; ;
+    margin-left: 82px;
+    margin-right: 82px;
+
+
+}
+
+.AddLi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius:6px; 
+	box-shadow: 0 2px 4px rgba(0,0,0,0.5); 
+	transition:.5s;
+    padding-left: 40px;
+    
+}
+
+.buttonRcolor{
+    margin-bottom: 20px;
+    background-color: rgb(145, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 2px;
+}
+
+.buttonRcolor:hover{
+    box-shadow: 0 6px 4px rgba(0,0,0,0.5); 
+	transition:.4s; 
+}
+
+.price{
+    padding-top: 40px;
+    color: rgb(145, 0, 0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    font-style: italic;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.AddnameItem{
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 13px;
+
+    
+    color: #242424;
+    text-align: left;
+}
